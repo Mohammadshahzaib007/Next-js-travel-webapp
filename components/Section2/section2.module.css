@@ -1,0 +1,31 @@
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 262px;
+}
+
+.IllustrationContainer {
+  margin-right: 102px;
+}
+
+.Illustration {
+  height: 534px;
+  width: 659px;
+}
+
+.ContentContainer {
+  width: 481px;
+}
+
+.Heading {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Para {
+  margin-bottom: 33px;
+  font-size: 17px;
+  color: #7d7987;
+}

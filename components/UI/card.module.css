@@ -1,0 +1,36 @@
+.Card {
+  width: 266px;
+  height: 446px;
+  font-family: "Inter", sans-serif;
+}
+
+.CardImgContainer {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.CardContentContainer {
+}
+
+.Heading {
+  font-size: 19px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.Para {
+  font-size: 15px;
+  color: #7d7987;
+  margin-bottom: 23px;
+}
+
+.Link {
+  font-size: 15px;
+  color: #fb8f1d;
+  text-decoration: none;
+  font-weight: bold;
+}

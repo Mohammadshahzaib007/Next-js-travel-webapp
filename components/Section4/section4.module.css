@@ -1,0 +1,30 @@
+.MianContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 248px;
+}
+
+.ContentContainer {
+  width: 481px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Para {
+  font-size: 17px;
+  color: #7d7987;
+  margin-bottom: 39px;
+  cursor: pointer;
+}
+
+.IllustrationContainer {
+  margin-left: 49px;
+}

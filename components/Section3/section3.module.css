@@ -1,0 +1,29 @@
+.MainContainer {
+  width: 100%;
+  margin-bottom: 173px;
+}
+
+.TopContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.Heading {
+  font-size: 36px;
+}
+
+.Para {
+  color: #fb8f1d;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.GaleryContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

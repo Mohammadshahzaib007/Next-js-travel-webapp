@@ -1,0 +1,48 @@
+.MainContainer {
+  width: 100%;
+  margin-bottom: 213px;
+}
+
+.TopHeadingContainer {
+  width: 100%;
+  margin-bottom: 43px;
+}
+
+.Heading {
+  font-size: 36px;
+}
+
+.TestimonialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TextContainer {
+  width: 450px;
+}
+
+.Stars {
+  margin-bottom: 30px;
+}
+
+.Para {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.Name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.NameSpan {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 18px;
+}
+
+.ImgContainer {
+  height: 491px;
+}
