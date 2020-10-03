@@ -49,12 +49,28 @@ const Header = () => {
             <div className={classes.BtnContainer}>
               <Button
                 className={classesMui.btnBorder}
-                style={{ borderColor: "#FB8F1D" }}
+                style={{
+                  fontFamily: `'Playfair Display", serif`,
+                  textTransform: "unset",
+                  borderColor: "#FB8F1D",
+                  color: "#FB8F1D",
+                  marginRight: "18px",
+                }}
                 variant="outlined"
               >
                 Log in
               </Button>
-              <Button className={classesMui.btnBg} variant="contained">
+              <Button
+                className={classesMui.btnBg}
+                variant="contained"
+                style={{
+                  fontFamily: `'Playfair Display", serif`,
+                  backgroundColor: "#FB8F1D",
+                  color: "#ffffff",
+                  boxShadow: "none",
+                  textTransform: "unset",
+                }}
+              >
                 Register
               </Button>
             </div>
