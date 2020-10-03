@@ -3,7 +3,7 @@ import { Container, Button } from "@material-ui/core";
 
 import classes from "./header.module.css";
 
-export const Header = () => {
+const Header = () => {
   return (
     <Container>
       <header className={classes.Header}>
@@ -122,3 +122,5 @@ export const Header = () => {
     </Container>
   );
 };
+
+export default Header;

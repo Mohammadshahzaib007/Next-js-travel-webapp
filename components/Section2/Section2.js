@@ -3,12 +3,15 @@ import { Container, Button } from "@material-ui/core";
 
 import classes from "./section2.module.css";
 
-export const Section2 = () => {
+const Section2 = () => {
   return (
     <Container>
       <div className={classes.MainContainer}>
         <div className={classes.IllustrationContainer}>
-          <img className={classes.Illustration} src="/assets/illustrations/thousand-02.png" />
+          <img
+            className={classes.Illustration}
+            src="/assets/illustrations/thousand-02.png"
+          />
         </div>
         <div className={classes.ContentContainer}>
           <h1 className={classes.Heading}>A new way to explore the world </h1>
@@ -39,3 +42,5 @@ export const Section2 = () => {
     </Container>
   );
 };
+
+export default Section2;

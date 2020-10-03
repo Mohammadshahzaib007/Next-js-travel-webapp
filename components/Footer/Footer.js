@@ -3,16 +3,15 @@ import { Container } from "@material-ui/core";
 
 import classes from "./Footer.module.css";
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <Footer className={classes.Footer}>
+    <footer className={classes.FooterCtn}>
       <Container>
         <div className={classes.MainContainer}>
-          <div className={classes.LinkContainer}>
-            sh
-          </div>
+          <div className={classes.LinkContainer}>shahzaib</div>
         </div>
       </Container>
-    </Footer>
+    </footer>
   );
 };
+export default Footer

@@ -3,7 +3,7 @@ import { Container } from "@material-ui/core";
 
 import classes from "./section5.module.css";
 
-export const Section5 = () => {
+const Section5 = () => {
   return (
     <Container>
       <div className={classes.MainContainer}>
@@ -29,3 +29,5 @@ export const Section5 = () => {
     </Container>
   );
 };
+
+export default Section5;

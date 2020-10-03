@@ -4,7 +4,7 @@ import { Container } from "@material-ui/core";
 import classes from "./section6.module.css";
 import Card from "../UI/Card";
 
-export const Section6 = () => {
+const Section6 = () => {
   return (
     <Container>
       <div className={classes.MainContainer}>
@@ -47,3 +47,5 @@ export const Section6 = () => {
     </Container>
   );
 };
+
+export default Section6;

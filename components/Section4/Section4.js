@@ -3,7 +3,7 @@ import { Container, Button } from "@material-ui/core";
 
 import classes from "./section4.module.css";
 
-export const Section4 = () => {
+const Section4 = () => {
   return (
     <Container>
       <div className={classes.MianContainer}>
@@ -41,3 +41,5 @@ export const Section4 = () => {
     </Container>
   );
 };
+
+export default Section4;
