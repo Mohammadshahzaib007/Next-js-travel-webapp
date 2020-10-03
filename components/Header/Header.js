@@ -1,9 +1,27 @@
 import React from "react";
-import { Container, Button } from "@material-ui/core";
+import { Container, Button, makeStyles, createStyles } from "@material-ui/core";
 
 import classes from "./header.module.css";
 
+const useStyles = makeStyles({
+  btnBorder: {
+    fontFamily: `'Playfair Display", serif`,
+    textTransform: "unset",
+    borderColor: "#FB8F1D",
+    color: "#FB8F1D",
+    marginRight: "18px",
+  },
+  btnBg: {
+    fontFamily: `'Playfair Display", serif`,
+    backgroundColor: "#FB8F1D",
+    color: "#ffffff",
+    boxShadow: "none",
+    textTransform: "unset",
+  },
+});
+
 const Header = () => {
+  const classesMui = useStyles();
   return (
     <Container>
       <header className={classes.Header}>
@@ -30,27 +48,13 @@ const Header = () => {
             </ul>
             <div className={classes.BtnContainer}>
               <Button
-                style={{
-                  fontFamily: `'Playfair Display", serif`,
-                  textTransform: "unset",
-                  borderColor: "#FB8F1D",
-                  color: "#FB8F1D",
-                  marginRight: "18px",
-                }}
+                className={classesMui.btnBorder}
+                style={{ borderColor: "#FB8F1D" }}
                 variant="outlined"
               >
                 Log in
               </Button>
-              <Button
-                style={{
-                  fontFamily: `'Playfair Display", serif`,
-                  backgroundColor: "#FB8F1D",
-                  color: "#ffffff",
-                  boxShadow: "none",
-                  textTransform: "unset",
-                }}
-                variant="contained"
-              >
+              <Button className={classesMui.btnBg} variant="contained">
                 Register
               </Button>
             </div>
